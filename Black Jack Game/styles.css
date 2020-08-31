@@ -1,0 +1,124 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+input[type=button] {
+    cursor: pointer;
+    border: none;
+}
+
+#mainScreen {
+    display: none;
+}
+
+#welcomeScreen {
+    height: 100vh;
+    text-align: center;
+    background-image: url('images/welcomeScreenBackground.webp');
+    background-size: 100%;
+}
+
+#welcomeScreenHeading {
+    padding-top: 5%;
+}
+
+#name {
+    margin: 2%;
+}
+
+#amount {
+    margin: 2%;
+}
+
+#deal {
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+#mainScreen {
+    height: 100vh;
+    background: url('images/mainScreenBackground.jpg')
+}
+
+    #mainScreen h1 {
+        padding-top: 2%;
+        margin-bottom: 4%;
+        font-size: 3em;
+        color: white;
+    }
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.playerSide {
+    width: 50%;
+    text-align: center;
+}
+
+.dealerSide {
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+}
+
+#dealerScore, #playerScore {
+    color: white;
+}
+
+.card {
+    width: 12%;
+    height: 17%;
+    padding: 2%;
+}
+
+.card-hidden {
+    width: 12%;
+    height: 17%;
+    padding: 2%;
+}
+
+#hitButton {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    padding: 1%;
+    background-color: forestgreen;
+    color: white;
+    border-radius: 50%;
+    font-size: 2.5em;
+}
+
+#standButton {
+    position: absolute;
+    top: 60%;
+    right: 35%;
+    padding: 1%;
+    background-color: darkred;
+    color: white;
+    border-radius: 50%;
+    font-size: 2em;
+}
+#reload {
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    padding: 1%;
+    background-color: forestgreen;
+    color: white;
+    border-radius: 50%;
+    font-size: 2.5em;
+    display: none;
+}
+#result {
+    color: orangered;
+    font-size: 50px;
+    text-align: center;
+}
